@@ -20,6 +20,6 @@ redTriangle = PolygonAsset([(0,0), (120,180), (60,300)],blackOutline,red) #list 
 Sprite(redRectangle)
 Sprite(blueCircle,(50,50))
 Sprite(greenEllipse,(200,400))
-Sprite(blackline)
+Sprite(blackLine)
 Sprite(redTriangle)
 App().run()
