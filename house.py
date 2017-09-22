@@ -12,9 +12,10 @@ black = Color(0x000000,1)
 
 blackOutline = LineStyle(1,black)
 
-purpleRectangle = RectangleAsset(200,200,blackOutline,purple)
+purpleRectangle = RectangleAsset(250,250,blackOutline,purple)
+redTriangle = PolygonAsset([(350,375), (500,450), (650,375)],blackOutline,red)
 
-Sprite(purpleRectangle)
-
+Sprite(purpleRectangle,(500,250))
+App().run()
 
 
