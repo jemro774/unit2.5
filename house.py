@@ -16,12 +16,13 @@ yellowRectangle1 = RectangleAsset(50,50,blackOutline,yellow)
 yellowRectangle2 = RectangleAsset(50,50,blackOutline,yellow)
 purpleRectangle = RectangleAsset(250,250,blackOutline,purple)
 redTriangle = PolygonAsset([(450,250), (625,100), (800,250)],blackOutline,red)
-brownRectangle = RectangleAsset(250,250,blackOutline,brown)
+brownRectangle = RectangleAsset(50,80,blackOutline,brown)
 
 Sprite(purpleRectangle,(500,250))
 Sprite(redTriangle)
 Sprite(yellowRectangle1,(535,300))
 Sprite(yellowRectangle2,(665,300))
+Sprite(brownRectangle,(600,420))
 App().run()
 
 
