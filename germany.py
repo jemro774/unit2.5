@@ -15,6 +15,6 @@ redRectangle = RectangleAsset(500,100,blackOutline,red)
 goldRectangle = RectangleAsset(500,100,blackOutline,gold)
 
 Sprite(blackRectangle,(250,50))
-Sprite(redRectangle,(250,50))
-Sprite(goldRectangle,(250,50))
+Sprite(redRectangle,(250,150))
+Sprite(goldRectangle,(250,250))
 App().run()
