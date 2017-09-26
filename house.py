@@ -1,6 +1,6 @@
 #Jack Robey
 #9/20/17
-#house.py - displays a picture of a house
+#house.py - displays an image of a house
 
 from ggame import *
 
