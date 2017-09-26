@@ -12,14 +12,16 @@ black = Color(0x000000,1)
 
 blackOutline = LineStyle(1,black)
 
-yellowRectangle = RectangleAsset(50,50,blackOutline,yellow)
+yellowRectangle1 = RectangleAsset(50,50,blackOutline,yellow)
+yellowRectangle2 = RectangleAsset(50,50,blackOutline,yellow)
 purpleRectangle = RectangleAsset(250,250,blackOutline,purple)
 redTriangle = PolygonAsset([(450,250), (625,100), (800,250)],blackOutline,red)
 brownRectangle = RectangleAsset(250,250,blackOutline,brown)
 
 Sprite(purpleRectangle,(500,250))
 Sprite(redTriangle)
-Sprite(yellowRectangle,(535,300))
+Sprite(yellowRectangle1,(535,300))
+Sprite(yellowRectangle2,(665,300))
 App().run()
 
 
