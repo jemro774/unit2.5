@@ -5,7 +5,13 @@
 from ggame import *
 
 blue = Color(0x0000FF,1)
+black = Color(0x000000,1)
 
 blackOutline = LineStyle(1,black)
 
-blueDiamond = PolygonAsset([(400,400), (600,600), (800,400), (600,200)],blackOutline,blue)
+blueDiamond = PolygonAsset([(300,300), (500,500), (700,300), (500,100)],blackOutline,blue)
+text = TextAsset('Jack', fill=black, style='bold 40pt Times')
+
+Sprite(blueDiamond)
+Sprite(text,(460,300))
+App().run()
